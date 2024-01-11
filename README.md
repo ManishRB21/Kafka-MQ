@@ -9,9 +9,14 @@ docker ps (list running containers)
 docker exec -it kafka-broker /bin/bash (log into container)
 Creating new topic and partition
 ./kafla-topics.sh 
->> --bootstrap-server localhost:29092 
->> --create 
->> --topic Topic1 
->> --partitions 1 
+
+>> --bootstrap-server localhost:29092
+
+>> --create
+
+>> --topic Topic1
+
+>> --partitions 1
+
 >> --replication-factor 1 
 
