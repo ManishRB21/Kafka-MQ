@@ -5,8 +5,8 @@ Use cmd line tools to publish & consume data
 build apache kafka clients using nodejs
 ## Docker knowdlege is required
 Powershell
-# docker ps (list running containers)
-# docker exec -it kafka-broker /bin/bash (log into container)
+ docker ps (list running containers)
+ docker exec -it kafka-broker /bin/bash (log into container)
 
 ## Creating new topic and partition
 # commands
