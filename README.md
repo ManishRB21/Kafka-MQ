@@ -8,6 +8,7 @@ Powershell
 docker ps (list running containers)
 docker exec -it kafka-broker /bin/bash (log into container)
 Creating new topic and partition
+--> commands
 ./kafla-topics.sh 
 
 >> --bootstrap-server localhost:29092
