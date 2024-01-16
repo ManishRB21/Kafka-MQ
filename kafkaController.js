@@ -1,7 +1,7 @@
 import debug from "debug";
 import { Kafka } from "kafkajs";
 import dotenv from 'dotenv';
-import e from "express";
+import express from "express";
 const logger = debug('node-kafka:kafkaController')
 dotenv.config()
 
